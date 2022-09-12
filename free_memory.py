@@ -1,5 +1,5 @@
-def main():
-    """Check out the free space in your computer"""
-    pass
 
+def main():
+    print("Every thing is OK.")
+>>>>>>> new-frature
 main()
