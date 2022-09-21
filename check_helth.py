@@ -28,8 +28,8 @@ def check_disk_full():
     df = os.popen('df -h').read()
     if df.find('/dev/sda1') == -1:
         return 1
-    else:
-        return 0
+    
+    return 0
 
 
 def main():
@@ -46,7 +46,7 @@ def main():
     if not everything_ok:
         sys.exit(1)
     print('Everything ok.')
-    sys.exit(0)
+    sys.exit(1)
 
 if __name__ == '__main__':
     main()
