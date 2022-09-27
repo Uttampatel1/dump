@@ -17,7 +17,7 @@
 import sys
 import os
 
-
+"""this is reboot function to use rebort your pc"""
 def check_reboot():
     if os.path.exists('/run/reboot-required'):
         return 1
